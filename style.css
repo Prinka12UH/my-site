@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;600&display=swap');
+
+body {
+font-family: 'Noto Sans Mono', monospace;
+color:aliceblue;
+background: url(https://letabouret.ru/upload/iblock/6a4/bwuim4qkv8iwzlxamgl50hhm7j8n6nq6.jpg);
+padding: 100px 0;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#f2b9b2
+}
+
+.container{
+width: 950px;
+min-height: 800px;
+border: 4px solid grey; 
+margin: 0 auto;
+background-color: black;
+}
+
+.header{
+    display: flex;
+    height: 250px;
+    
+}
+
+.title-block{
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+
+.user_pic{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    background: url(https://sun6-23.userapi.com/s/v1/ig2/B-9Iytw3hrgbpH_YwcyUqT_pkyl3cICpX0WKRWttvXHVBqIsNShV0ppqc81CriPi3080hBXIHwMaK4-r8kxRzA6s.jpg?size=400x400&quality=96&crop=4,4,801,801&ava=1) no-repeat center center / cover;
+}
+
+.nav ul{
+    display: flex;
+    background: rgb(90, 88, 88);
+
+}
+
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #F1948A ;
+    font-weight: bold;
+    transition: background 0.3s ease;
+     
+}
+
+.nav li a:hover{ 
+    background:rgb(74, 73, 73) ;
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+.content{
+    width: 80%;
+    padding: 20px;
+    line-height: 20px
+}
+
+
+
+.sidebar{
+    width: 20%;
+    padding: 15px;
+    text-align: right;
+}
+
+.courses li{
+margin: 10px 0;
+}
+
+.list li {
+    list-style-type: square;
+    padding: 15px;
+
+ }
+
+
+.table {
+    border-collapse: collapse;
+    /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey;
+    /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+    
+ }
+
